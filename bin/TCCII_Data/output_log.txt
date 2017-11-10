@@ -1,0 +1,133 @@
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [igdumdim32.dll 20.19.15.4549]
+    Renderer: Intel(R) HD Graphics Family
+    Vendor:   Intel
+    VRAM:     1136 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=1 DF24=1 INTZ=1 RAWZ=0 NULL=1 RESZ=1 SlowINTZ=0
+desktop: 1920x1080 60Hz; virtual: 1536x864 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Initialize engine version: 3.5.6f4
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Academic - Organizar\PUCRS\Semestre 8\TCCII\TCCII_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Academic - Organizar\PUCRS\Semestre 8\TCCII\TCCII_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Academic - Organizar\PUCRS\Semestre 8\TCCII\TCCII_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\Academic - Organizar\PUCRS\Semestre 8\TCCII\TCCII_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\Academic - Organizar\PUCRS\Semestre 8\TCCII\TCCII_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Academic - Organizar\PUCRS\Semestre 8\TCCII\TCCII_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Academic - Organizar\PUCRS\Semestre 8\TCCII\TCCII_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading D:\Academic - Organizar\PUCRS\Semestre 8\TCCII\TCCII_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: D:\Academic - Organizar\PUCRS\Semestre 8\TCCII\TCCII_Data\Managed\OpenNI.Net.dll (this message is harmless)
+Loading D:\Academic - Organizar\PUCRS\Semestre 8\TCCII\TCCII_Data\Managed\OpenNI.Net.dll into Unity Child Domain
+Platform assembly: D:\Academic - Organizar\PUCRS\Semestre 8\TCCII\TCCII_Data\Managed\ZDK.dll (this message is harmless)
+Loading D:\Academic - Organizar\PUCRS\Semestre 8\TCCII\TCCII_Data\Managed\ZDK.dll into Unity Child Domain
+- Completed reload, in  0.919 seconds
+Trying to open Kinect sensor using MS Kinect SDK
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+Note: Microsoft's Kinect SDK can only be used in one process at a time. Please quit any other processes using the Microsoft Kinect
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+This also means you must quit the Unity Editor before using any compiled product
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+Exception while attempting to start reader:
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+kinect10.dll
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+failed opening Kinect SDK sensor (if you intend to use the Microsoft Kinect SDK, please unplug the sensor, restart Unity and try again)
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+Trying to open sensor using OpenNI
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+System.DllNotFoundException: OpenNI
+  at (wrapper managed-to-native) OpenNI.SafeNativeMethods:xnInit (intptr&)
+  at OpenNI.Context.Init () [0x00000] in <filename unknown>:0 
+  at OpenNI.Context..ctor () [0x00000] in <filename unknown>:0 
+  at ZigInputOpenNI.Init (.ZigInputSettings settings) [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+Exception while attempting to start reader:
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+Error opening OpenNI context: OpenNI
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+failed opening sensor using OpenNI
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+Failed to load driver and middleware, review warnings above for specific exception messages from middleware
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+Object to create number = 4
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+Can not play a disabled audio source
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Audio/AudioSource.cpp Line: 318)
+
+Points Counter = 1
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+Object to create number = 5
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+Can not play a disabled audio source
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Audio/AudioSource.cpp Line: 318)
+
+Points Counter = 2
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+Object to create number = 6
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+Object to create number = 8
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+Can not play a disabled audio source
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Audio/AudioSource.cpp Line: 318)
+
+Points Counter = 3
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+Object to create number = 9
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+Object to create number = 3
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+Can not play a disabled audio source
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/Audio/AudioSource.cpp Line: 318)
+
+Points Counter = 4
+ 
+(Filename: C:/BuildAgent/work/14194e8ce88cdf47/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
